@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send("Hello, Node.js is running!");
+  res.send("Hello, Node.js app updated successfully via GitHub Actions!");
 });
 
 const port = 3000;
